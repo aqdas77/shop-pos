@@ -16,6 +16,6 @@ if(process.env.NODE_ENV==='production')
         res.sendFile(path.resolve(__dirname,'client/build/index.html'))
     })
 }
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 443;
 app.get('/',(req,res)=> res.send('Hello World'))
 app.listen(port,()=> console.log(`App listening on port ${port}`))
