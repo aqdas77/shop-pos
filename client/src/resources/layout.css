@@ -1,0 +1,81 @@
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .logo h3{
+     color: #30a778;
+     font-size: 24px;
+     font-weight: bold;
+     text-align: center;
+     padding-bottom: 100px;
+  }
+  .site-layout .site-layout-background {
+    background: #fff;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 5px;
+   
+  }
+  .ant-layout-header{
+    margin: 0 10px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+  }
+  .ant-layout-has-sider{
+   padding: 15px !important; 
+  }
+
+  .ant-layout-sider-children{
+    padding-top: 15px !important;
+    padding-right: 20px !important; 
+    height: 95vh !important;
+  }
+  .ant-layout-sider{
+    border-radius: 10px !important;
+  }
+  .anticon svg{
+    height: 20px !important;
+    width: 20px !important;
+    font-size: 20px !important;
+  }
+  .ant-menu-item-selected{
+    background-color: #30a778 !important;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .cart-count{
+    margin-left: auto !important;
+    cursor: pointer;
+   
+  }
+  
+  .spinner{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .spinner-border{
+    height: 100px;
+    width: 100px;
+  }
+  .ant-layout-content{
+    height: 80vh;
+    overflow-y: scroll;
+  }
